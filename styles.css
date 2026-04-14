@@ -1,3 +1,46 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Main content */
+main {
+    margin: 40px auto;
+}
+
+/* Heading */
 h1 {
-  color: red;
+    color: red;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
 }
